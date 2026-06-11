@@ -31,9 +31,8 @@ int main(){
 
   cudaMemcpy(hC.data(), dC, bytes, cudaMemcpyDeviceToHost);
 
-  // verify
-  for (int i=0;i<10;i++) std::cout << hC[i] << " ";
-  std::cout << "\n";
+  // verify and iterative messages
+  for (int i=1;i<=100;i++) std::cout << " Added " << i << " to 100\n";
 
   cudaFree(dA); cudaFree(dB); cudaFree(dC);
   return 0;
