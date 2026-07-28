@@ -1,5 +1,5 @@
 % cuda-parallel-patterns
-
+   
 An implementation portfolio of core CUDA parallel algorithms, memory optimizations, and performance profiles inspired by Shane Cook's "CUDA Programming".
 
 Overview
